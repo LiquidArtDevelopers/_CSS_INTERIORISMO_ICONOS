@@ -4,9 +4,12 @@
   outline: 0;
   box-sizing: border-box;
 }
-
+@font-face {
+    font-family: "monse";
+    src: url("./fonts/Montserrat-VariableFont_wght.ttf");
+}
 html{
-    scroll-behavior: smooth;
+    scroll-behavior: smooth;    
 }
 body{
     width: 100%;
@@ -302,7 +305,7 @@ padding-top: 50px;
     row-gap: 5px;    
 }
 .firma h4{
-    font-family: sans-serif;
+    font-family: 'monse';
     font-size: 16px;
 }
 .firma p{
